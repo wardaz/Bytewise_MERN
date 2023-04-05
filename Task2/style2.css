@@ -1,0 +1,68 @@
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-head{
+    background-color: brown;
+}
+#navbar{
+    background-color: gray;
+    color: white;
+}
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+#showcase{
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/003/712/202/small/neon-wave-abstract-background-dynamic-wave-and-light-motion-background-design-template-free-vector.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+#showcase h1{
+    color: white;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+}
+#main{
+    float: left;
+    width: 70%;
+    padding: auto;
+    box-sizing: border-box;
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    padding: auto;
+    box-sizing: border-box;
+}
+#main-footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+   margin-top: 40px;
+}
+@media screen and (max-width:600px) {
+    #main{
+        float: none;
+        width: 100%; 
+    }
+    #sidebar{
+        float: none;
+        width: 100%;
+    }
+}
